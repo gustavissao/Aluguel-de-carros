@@ -1,0 +1,5 @@
+p1 = int(input("qauntos dias ele foi alugado? "))
+p2 = float(input("Quantos Km rodado? "))
+dia = (p1 * 60)
+k = (p2 * 0.15)
+print(f"o carro rodou por {p1} dias e gastou {p2}KM\no debito diario ficou R${dia} \ne o kilimetragem ficou R${k} ")
